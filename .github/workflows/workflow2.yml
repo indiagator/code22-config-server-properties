@@ -1,0 +1,9 @@
+name: workflow 2
+run-name: we are still testing github actions
+on: [push]
+jobs:
+  testing-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'hello world'
+  
